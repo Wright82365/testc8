@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px
+    margin-right: 20px
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.navbar li{
+    flex: auto;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(220, 245, 233)
+    color: black;
+    padding: 0px;
+    margin: 0px
+}
+.navbar a{
+    color: blueviolet;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: brown;
+
+}

@@ -1,33 +1,48 @@
-body{
+body {
     margin: 0px;
+    font-family: Arial, sans-serif;
 }
-main{
-    margin-left: 20px
-    margin-right: 20px
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
 }
-h1{
+
+h1 {
     text-align: center;
     background-color: black;
     color: whitesmoke;
+    padding: 10px;
 }
-.navbar li{
-    flex: auto;
+
+.navbar {
+    display: flex;
+    background-color: #ddd;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
-    text-decoration: none;
-    background-color: rgb(220, 245, 233)
-    color: black;
-    padding: 0px;
-    margin: 0px
 }
-.navbar a{
+
+.navbar li {
+    flex: auto;
+}
+
+.navbar a {
     color: blueviolet;
     text-decoration: none;
-    list-style-type: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
-    background-color: brown;
 
+.navbar a:hover {
+    background-color: brown;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    color: #333;
 }
